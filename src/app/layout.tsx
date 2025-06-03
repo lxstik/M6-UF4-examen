@@ -31,11 +31,11 @@ export default function RootLayout({
         <header>
            <Header />
         </header>
-        <main className="p-4">
+        <main>
           {children}
         </main>
         <footer className="p-4 bg-gray-100 mt-8 text-sm text-center text-gray-600">
-          Yehor Fal
+          Yehor Fal Examen UF4
         </footer>
       </body>
     </html>
