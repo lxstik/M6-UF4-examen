@@ -39,7 +39,7 @@ export default function Detalle({ movieId }) {
       <h2 className="text-2xl font-bold mb-4">{movie.title}</h2>
       <p>Fecha de estreno: {movie.release_date}
       </p>
-      <p>Valoración: ⭐ {movie.vote_average} / 10
+      <p>Valoracion: <br/>⭐ {movie.vote_average} / 10
       </p>
       <p>Sinopsis:</p>
       <p>{movie.overview}</p>
