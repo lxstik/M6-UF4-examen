@@ -16,7 +16,7 @@ export default function Peliculas() {
 
   //utilizo useEffect para que se ejecute nada más al cargar el componente
   useEffect(() => {
-    const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
+    const API_KEY = "cfe82ea0a8a3a995d5a87aa74dd5e4e8";
     const BASE_URL = "https://api.themoviedb.org/3";
 
     //hago la petición a la API obteniendo las peliculas populares
